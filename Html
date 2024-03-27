@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Courses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Coding Courses</h1>
+    <div class="language-selector">
+      <label for="language-select">Select Language:</label>
+      <select id="language-select">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <!-- Add more languages here -->
+      </select>
+    </div>
+  </header>
+  
+  <main>
+    <section class="course">
+      <h2>HTML Basics</h2>
+      <p>Learn the fundamentals of HTML.</p>
+      <a href="html_course.html" class="start-button">Start Course</a>
+    </section>
+    
+    <section class="course locked">
+      <h2>CSS Fundamentals</h2>
+      <p>Master the basics of CSS.</p>
+      <p>Complete HTML Basics to unlock</p>
+    </section>
+    
+    <section class="course locked">
+      <h2>JavaScript Essentials</h2>
+      <p>Get started with JavaScript programming.</p>
+      <p>Complete CSS Fundamentals to unlock</p>
+    </section>
+    
+    <!-- Add more courses here -->
+    
+    <section class="forum">
+      <h2>Community Forum</h2>
+      <p>Engage with other learners in our community forum!</p>
+      <a href="https://forum.example.com">Visit Forum</a>
+    </section>
+    
+    <section class="tips"></section>
+    <section class="dictionary"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Coding Courses</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
