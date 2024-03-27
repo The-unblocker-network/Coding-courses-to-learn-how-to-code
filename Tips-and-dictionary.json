@@ -1,0 +1,89 @@
+{
+  "html": {
+    "tips": [
+      "Use semantic HTML tags like <header>, <footer>, <nav>, etc., to improve accessibility and SEO.",
+      "Always include the <!DOCTYPE html> declaration at the beginning of your HTML document.",
+      "Use the alt attribute for images to provide alternative text for screen readers and when images cannot be displayed."
+    ],
+    "dictionary": {
+      "DOCTYPE": "A declaration at the beginning of an HTML document that specifies the document type and version.",
+      "tag": "A markup element used to define the structure and content of a web page.",
+      "attribute": "A property used to provide additional information about an HTML element.",
+      "HTML": "Hypertext Markup Language, the standard markup language for documents designed to be displayed in a web browser.",
+      "CSS": "Cascading Style Sheets, a style sheet language used for describing the presentation of a document written in HTML.",
+      "JavaScript": "A programming language that enables interactive web pages and is essential for web development.",
+      "element": "A fundamental part of a web page, such as text, images, or buttons.",
+      "selector": "A pattern used to select the elements you want to style in CSS.",
+      "property": "A characteristic of an element that can be styled, such as color, font-size, etc.",
+      "declaration": "A combination of a property and its corresponding value within a CSS rule."
+      // Add more HTML-related terms here
+    }
+  },
+  "css": {
+    "tips": [
+      "Use external CSS files for better organization and maintainability.",
+      "Use classes for styling elements that occur multiple times on a page and IDs for unique elements.",
+      "Learn about CSS specificity to understand how conflicting styles are resolved."
+    ],
+    "dictionary": {
+      "selector": "A pattern used to select the elements you want to style.",
+      "property": "A characteristic of an element that can be styled, such as color, font-size, etc.",
+      "declaration": "A combination of a property and its corresponding value within a CSS rule.",
+      "stylesheet": "A file containing CSS rules that define the presentation of HTML elements.",
+      "rule": "A set of one or more CSS declarations associated with a selector.",
+      "class": "A name assigned to a group of HTML elements for styling purposes.",
+      "ID": "A unique identifier assigned to an HTML element for styling or scripting purposes.",
+      "pseudo-class": "A keyword added to a selector that specifies a special state of the selected element(s)."
+      // Add more CSS-related terms here
+    }
+  },
+  "javascript": {
+    "tips": [
+      "Use meaningful variable names to improve code readability.",
+      "Comment your code to explain complex logic or functionality.",
+      "Learn about data types, operators, and control flow to write more efficient code."
+    ],
+    "dictionary": {
+      "variable": "A container for storing data values.",
+      "function": "A reusable block of code that performs a specific task.",
+      "loop": "A control flow statement that allows code to be executed repeatedly.",
+      "array": "A data structure that stores a collection of elements, each identified by at least one index or key.",
+      "object": "A collection of key-value pairs used to store various data structures.",
+      "method": "A function associated with an object, also known as a function property.",
+      "DOM": "Document Object Model, a programming interface for web documents that represents the structure of a document as a tree of nodes.",
+      "event": "An action or occurrence detected by the program that may be handled by event handlers."
+      // Add more JavaScript-related terms here
+    }
+  },
+  "python": {
+    "tips": [
+      "Indentation is crucial in Python. Use consistent indentation for blocks of code.",
+      "Use list comprehensions to create concise and readable code for transforming lists.",
+      "Leverage Python's built-in libraries to avoid reinventing the wheel."
+    ],
+    "dictionary": {
+      "indentation": "The spaces or tabs at the beginning of a line used to define the block structure of Python code.",
+      "list comprehension": "A concise way to create lists in Python using a single line of code.",
+      "library": "A collection of pre-written code that can be reused to perform common tasks.",
+      "function": "A block of organized, reusable code that performs a specific task.",
+      "module": "A file containing Python definitions and statements. The file name is the module name with the suffix .py appended."
+      // Add more Python-related terms here
+    }
+  },
+  "java": {
+    "tips": [
+      "Follow Java naming conventions for classes, methods, and variables.",
+      "Use meaningful variable names to enhance code clarity.",
+      "Learn about object-oriented programming concepts such as inheritance, polymorphism, and encapsulation."
+    ],
+    "dictionary": {
+      "class": "A blueprint for creating objects that define their properties and behaviors.",
+      "method": "A set of instructions bundled together to perform a specific task.",
+      "inheritance": "The ability of a class to inherit properties and methods from another class.",
+      "polymorphism": "The ability of an object to take on many forms. It allows objects of different classes to be treated as objects of a common superclass.",
+      "encapsulation": "The bundling of data with the methods that operate on that data, or the restriction of direct access to some of an object's components."
+      // Add more Java-related terms here
+    }
+  }
+  // Add more languages and terms here
+}
